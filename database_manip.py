@@ -9,6 +9,7 @@ try:
     # Set up the DB and Cursor with a relative path from the script's location
     db_path = os.path.join(script_directory, 'SQLite3-showcase/student_db')
     db = sqlite3.connect(db_path)
+    cursor = db.cursor()
 
     # Create the Table
     cursor.execute('''
