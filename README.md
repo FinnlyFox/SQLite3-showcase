@@ -31,17 +31,15 @@ Then you will need to follow these steps:
 
 ## Usage
 
-Please note, before running the program that you have accurately changed the path of the db variable to fit your file system
-
-After you have successfully installed and run the program, it will do the following and print the results of each action to the screen:
+After you have successfully installed and run the program, it will do the following:
 
 1. #### Create Table: The program creates an SQLite table named python_programming to store student information.
 
 1. #### Insert Data: It inserts sample student data into the table.
 
-1. #### Query Data: You can retrieve data for students with grades between 60 and 80.
+1. #### Query Data: It will retrieve data for students with grades between 60 and 80 and print them to the screen.
 
-1. #### Update Grade: The program allows you to update the grade of a specific student. For example, it updates the grade for 'Carl Davis' to 65.
+1. #### Update Grade: The program updates the grade for 'Carl Davis' to 65.
 
 1. #### Delete Record: It deletes a specific student record. In this example, it deletes the record for 'Dennis Fredrickson'.
 
