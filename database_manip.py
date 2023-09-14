@@ -1,15 +1,9 @@
 import sqlite3
-import os
 
 # I'll just catch all exceptions for this first task with SQLite
 
-# Get the directory of the current script
-script_directory = os.path.dirname(os.path.abspath(__file__))
-
 try:
-    # Set up the DB and Cursor with a relative path from the script's location
-    db_path = os.path.join(script_directory, 'SQLite3-showcase/student_db')
-    db = sqlite3.connect(db_path)
+    db = sqlite3.connect('SQLite3-showcase/student_db')
     cursor = db.cursor()
 
     # Create the Table
