@@ -5,7 +5,7 @@ import sqlite3
 
 try:
     # Set up the DB and Cursor
-    db = sqlite3.connect('./task 12/student_db')
+    db = sqlite3.connect('student_db')
     cursor = db.cursor()
 
     # Create the Table
