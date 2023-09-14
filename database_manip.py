@@ -3,7 +3,7 @@ import sqlite3
 # I'll just catch all exceptions for this first task with SQLite
 
 try:
-    db = sqlite3.connect('SQLite3-showcase/student_db')
+    db = sqlite3.connect('student_db')
     cursor = db.cursor()
 
     # Create the Table
