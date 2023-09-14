@@ -1,4 +1,5 @@
 import sqlite3
+import os
 
 # I'll just catch all exceptions for this first task with SQLite
 
