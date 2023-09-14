@@ -1,11 +1,10 @@
 import sqlite3
 
-# PS, again the file path is set up for my folders. Make sure it is set up to your system.
 # I'll just catch all exceptions for this first task with SQLite
 
 try:
     # Set up the DB and Cursor
-    db = sqlite3.connect('student_db')
+    db = sqlite3.connect('SQLite3-showcase/student_db')
     cursor = db.cursor()
 
     # Create the Table
